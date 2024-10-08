@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-header',
   template: `
    <header>
-    <div routerLink="/home" class="brand">
+    <div routerLink="/" class="brand">
       <span class="title">Dictionary</span>
     </div>
     <word-search></word-search>

@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class DictionaryService {
   private apiUrl = 'https://dictionaryapp-44vf.onrender.com'
-  //  'http://localhost:3000';
+  // private apiUrl =  'http://localhost:3000';
 
   constructor(private http: HttpClient) {}
 

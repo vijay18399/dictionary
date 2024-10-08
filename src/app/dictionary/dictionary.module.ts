@@ -14,7 +14,6 @@ import { DictionaryComponent } from './dictionary.component';
 import { Header } from './components/header.component';
 import { SpellBeeComponent } from './components/spell-bee.component';
 import { DictionaryService } from './services/dictionary.service';
-import { DictionarySplash } from './components/dictionary-splash.component';
 import { Loader } from './components/loader.component';
 
 @NgModule({
@@ -28,7 +27,6 @@ import { Loader } from './components/loader.component';
     WordHeaderComponent,
     PronounciationPage,
     SpellBeeComponent,
-    DictionarySplash,
     Loader
   ],
   imports: [

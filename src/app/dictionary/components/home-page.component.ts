@@ -4,7 +4,7 @@ import { DictionaryService } from '../services/dictionary.service';
 @Component({
   selector: 'home-page',
   template: `
-    <div>
+    <div class="container">
      <div  class="word-card">
       <h2 class="title">
         Word of the Day
@@ -17,11 +17,16 @@ import { DictionaryService } from '../services/dictionary.service';
     styles: [`
       :host {
         max-width: 100%;
-        padding: 10px;
+        padding-top: 10px;
         display: flex;
         justify-content: center;
       }
-
+      .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .word-card {
         background-color: #fff;
         width: 600px;

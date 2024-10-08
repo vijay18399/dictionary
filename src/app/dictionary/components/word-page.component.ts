@@ -152,8 +152,8 @@ import { DictionaryService } from '../services/dictionary.service';
     }
 
     @media (max-width: 600px) {
-        .word-card {
-           width: 90%;
+        .word-page-card  {
+           width: 100%;
         }
     }
   `,
